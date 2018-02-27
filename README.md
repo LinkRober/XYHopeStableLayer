@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/XYHopeStableLayer.svg?style=flat)](http://cocoapods.org/pods/XYHopeStableLayer)
 [![Platform](https://img.shields.io/cocoapods/p/XYHopeStableLayer.svg?style=flat)](http://cocoapods.org/pods/XYHopeStableLayer)
 
-## Example
+## Description
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+产品安全组件，减少线上App因为一些常见的问题发送崩溃
 
-## Requirements
+- 方法未找到 -- 完成
+- 数组问题 
+- 字典问题
+- KVO
+- 字符串
+
+## Theory
+方法未找到：在完整的消息转发第一步的时候，hook到`-(id)forwardingTargetForSelector:(SEL)selector`方法，检查当前类是否实现了该方法，如果没有动态添加一个类，将selector绑定到一个新的`IMP`
+
 
 ## Installation
 
