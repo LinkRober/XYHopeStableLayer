@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A3AA6D720450721003D604F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AA6D620450721003D604F /* Person.m */; };
 		D3907E5BB8F316963E11B51C /* Pods_XYHopeStableLayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D23D0B5D562841D1415B51F /* Pods_XYHopeStableLayer_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		008E51A42AA239EBD2F46940 /* Pods-XYHopeStableLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHopeStableLayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYHopeStableLayer_Example/Pods-XYHopeStableLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2C5DC82632E373E42A0FA53D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C5DC82632E373E42A0FA53D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XYHopeStableLayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHopeStableLayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +63,12 @@
 		6C9AE810F79D251FAAB1E38F /* Pods-XYHopeStableLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHopeStableLayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYHopeStableLayer_Example/Pods-XYHopeStableLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A3AA6D520450721003D604F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8A3AA6D620450721003D604F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8E17153DC66C7094A210899B /* Pods_XYHopeStableLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYHopeStableLayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D23D0B5D562841D1415B51F /* Pods_XYHopeStableLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYHopeStableLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB8BD2277DD13155F5C8FC9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F351D828B24D9D9138C1493D /* XYHopeStableLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYHopeStableLayer.podspec; path = ../XYHopeStableLayer.podspec; sourceTree = "<group>"; };
+		CB8BD2277DD13155F5C8FC9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F351D828B24D9D9138C1493D /* XYHopeStableLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYHopeStableLayer.podspec; path = ../XYHopeStableLayer.podspec; sourceTree = "<group>"; };
 		F6B152E5727992BE6215C302 /* Pods-XYHopeStableLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHopeStableLayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYHopeStableLayer_Tests/Pods-XYHopeStableLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				8A3AA6D520450721003D604F /* Person.h */,
+				8A3AA6D620450721003D604F /* Person.m */,
 			);
 			name = "Example for XYHopeStableLayer";
 			path = XYHopeStableLayer;
@@ -250,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LinkRober;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UX6DFVZ4FJ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -396,6 +404,7 @@
 			files = (
 				6003F59E195388D20070C39A /* XYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XYViewController.m in Sources */,
+				8A3AA6D720450721003D604F /* Person.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +533,7 @@
 			baseConfigurationReference = 008E51A42AA239EBD2F46940 /* Pods-XYHopeStableLayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX6DFVZ4FJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYHopeStableLayer/XYHopeStableLayer-Prefix.pch";
 				INFOPLIST_FILE = "XYHopeStableLayer/XYHopeStableLayer-Info.plist";
@@ -539,6 +549,7 @@
 			baseConfigurationReference = 6C9AE810F79D251FAAB1E38F /* Pods-XYHopeStableLayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX6DFVZ4FJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYHopeStableLayer/XYHopeStableLayer-Prefix.pch";
 				INFOPLIST_FILE = "XYHopeStableLayer/XYHopeStableLayer-Info.plist";

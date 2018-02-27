@@ -1,0 +1,19 @@
+PODS:
+  - JRSwizzle (1.0)
+  - XYHopeStableLayer (0.1.0):
+    - JRSwizzle
+
+DEPENDENCIES:
+  - XYHopeStableLayer (from `../`)
+
+EXTERNAL SOURCES:
+  XYHopeStableLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  XYHopeStableLayer: b90eae38bf7f08fc02fe0c10a8b901a569e6f98f
+
+PODFILE CHECKSUM: 0a881775d5b524c868fd6f54e80f98d02b49b762
+
+COCOAPODS: 1.2.1

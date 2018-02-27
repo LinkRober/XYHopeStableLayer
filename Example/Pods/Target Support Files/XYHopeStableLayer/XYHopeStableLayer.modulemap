@@ -1,0 +1,6 @@
+framework module XYHopeStableLayer {
+  umbrella header "XYHopeStableLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,16 @@
 //
 
 #import "XYAppDelegate.h"
+#import "Person.h"
 
 @implementation XYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Person *p = [Person new];
+    [p run];
+    [Person fly];
     return YES;
 }
 
