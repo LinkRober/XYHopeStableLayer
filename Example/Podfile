@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XYHopeStableLayer_Example' do
+  pod 'XYHopeStableLayer', :path => '../'
+
+  target 'XYHopeStableLayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
